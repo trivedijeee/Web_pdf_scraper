@@ -14,6 +14,7 @@ from urllib.parse import urljoin
 from pypdf import PdfWriter
 from concurrent.futures import ThreadPoolExecutor
 
+
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description="Webpage scraper and PDF generator")
 parser.add_argument("url", type=str, help="Website URL to scrape")
