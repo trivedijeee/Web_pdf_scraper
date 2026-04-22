@@ -10,7 +10,7 @@ def manipulate_pdfs():
         
         # Agar file mein 16 se kam pages hain, toh crash hone ki jagah 
         # ye sirf available pages lega (min function use karke)
-        pages_to_extract = min(16, total_pages)
+        #pages_to_extract = min(16, total_pages)
         
         print(f"Extracting {pages_to_extract} pages from file1.pdf...")
         for page_num in range(0, pages_to_extract): 
